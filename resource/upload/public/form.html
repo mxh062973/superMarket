@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>文件上传</title>
+</head>
+<body>
+
+	<h1>文件上传</h1>
+
+	<form action="/upload" method="post" enctype="multipart/form-data">
+		<input type="file" name="logo"> <br />
+		<input type="submit" value="提交">
+	</form>
+
+	<!-- 
+		action： 上传地址
+		method:  上传方式 上传请求的方式 只能是post	
+		enctype： 编码类型只能是 multipart/form-data
+
+		type: file
+		name: 值 后端需要使用
+	 -->
+
+</body>
+</html>
